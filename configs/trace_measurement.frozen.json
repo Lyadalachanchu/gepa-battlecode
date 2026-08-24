@@ -1,0 +1,2572 @@
+{
+  "per_replay": [
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 4,
+        "PlaceTrap": 25,
+        "RatNap": 16,
+        "RatSqueak": 417,
+        "SpawnAction": 23,
+        "ThrowRat": 8,
+        "TriggerTrap": 13,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 252131,
+      "gunzipped_bytes": 97588,
+      "path": "runs/match_cache/00/009ac0e6638e99301ff2501e944090c850534c2d2d727209a890e52b1d1aeba5/replay.bc26",
+      "peak_live_units": 26,
+      "raw_bytes": 22064,
+      "rounds": 72,
+      "total_rounds": 72,
+      "trace_tokens": {
+        "level0": 24620,
+        "shrink_window": 19092,
+        "stride40": 24620,
+        "windows_only": 24620
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 12,
+        "PlaceTrap": 35,
+        "RatNap": 2089,
+        "RatSqueak": 21975,
+        "SpawnAction": 40,
+        "ThrowRat": 41,
+        "TriggerTrap": 0,
+        "UpgradeToRatKing": 0,
+        "died_ids": 20
+      },
+      "full_decode_json_bytes": 7059269,
+      "gunzipped_bytes": 2353908,
+      "path": "runs/match_cache/01/01ba7d64ffac84e967642303ce143f3b52cec4ffc3083f66cbdbdaaa5d35c884/replay.bc26",
+      "peak_live_units": 45,
+      "raw_bytes": 366683,
+      "rounds": 1200,
+      "total_rounds": 1200,
+      "trace_tokens": {
+        "level0": 415456,
+        "shrink_window": 392398,
+        "stride40": 405282,
+        "windows_only": 395843
+      },
+      "win_type": "RESIGNATION",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 6,
+        "RatNap": 0,
+        "RatSqueak": 473,
+        "SpawnAction": 17,
+        "ThrowRat": 0,
+        "TriggerTrap": 6,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 218973,
+      "gunzipped_bytes": 89224,
+      "path": "runs/match_cache/02/02dcac71993c34ecfb9cdf24c8d6bbe6e6f9ed1f47d5701aa02ca7600146b4a3/replay.bc26",
+      "peak_live_units": 21,
+      "raw_bytes": 18929,
+      "rounds": 67,
+      "total_rounds": 67,
+      "trace_tokens": {
+        "level0": 22201,
+        "shrink_window": 16638,
+        "stride40": 22201,
+        "windows_only": 22201
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 2,
+        "PlaceTrap": 19,
+        "RatNap": 0,
+        "RatSqueak": 86,
+        "SpawnAction": 17,
+        "ThrowRat": 0,
+        "TriggerTrap": 3,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 118120,
+      "gunzipped_bytes": 46112,
+      "path": "runs/match_cache/03/03c271f4cfdaae73b6ff3c59c502bf0cbd874742017711c67b85eafa3a378061/replay.bc26",
+      "peak_live_units": 20,
+      "raw_bytes": 10267,
+      "rounds": 42,
+      "total_rounds": 42,
+      "trace_tokens": {
+        "level0": 11100,
+        "shrink_window": 9656,
+        "stride40": 11100,
+        "windows_only": 11100
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 4,
+        "PlaceTrap": 0,
+        "RatNap": 0,
+        "RatSqueak": 118,
+        "SpawnAction": 19,
+        "ThrowRat": 0,
+        "TriggerTrap": 0,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 141859,
+      "gunzipped_bytes": 56040,
+      "path": "runs/match_cache/07/07c38ae63aad82aab1bc83cecb6d6a9ac02d794a07fd0a4220210867bb4a8172/replay.bc26",
+      "peak_live_units": 20,
+      "raw_bytes": 13156,
+      "rounds": 48,
+      "total_rounds": 48,
+      "trace_tokens": {
+        "level0": 13142,
+        "shrink_window": 10075,
+        "stride40": 13142,
+        "windows_only": 13142
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 3,
+        "PlaceTrap": 38,
+        "RatNap": 1961,
+        "RatSqueak": 21711,
+        "SpawnAction": 25,
+        "ThrowRat": 4,
+        "TriggerTrap": 3,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 7025324,
+      "gunzipped_bytes": 2382476,
+      "path": "runs/match_cache/09/091b91400fb98f5d8d1c6f3f0d439139f34b767ceb6a725d0e8570f7fa85aa78/replay.bc26",
+      "peak_live_units": 39,
+      "raw_bytes": 341760,
+      "rounds": 1151,
+      "total_rounds": 1151,
+      "trace_tokens": {
+        "level0": 405008,
+        "shrink_window": 382528,
+        "stride40": 395619,
+        "windows_only": 386162
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 73,
+        "PlaceTrap": 107,
+        "RatNap": 158,
+        "RatSqueak": 3194,
+        "SpawnAction": 90,
+        "ThrowRat": 63,
+        "TriggerTrap": 101,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1347251,
+      "gunzipped_bytes": 471836,
+      "path": "runs/match_cache/10/10b8f586a728c8cbdc562ae1df72161cd9e6157ee198fa4c49034f8d856dd938/replay.bc26",
+      "peak_live_units": 47,
+      "raw_bytes": 119199,
+      "rounds": 235,
+      "total_rounds": 235,
+      "trace_tokens": {
+        "level0": 91076,
+        "shrink_window": 76939,
+        "stride40": 89255,
+        "windows_only": 87834
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 2,
+        "CatPounce": 0,
+        "DieAction": 15,
+        "PlaceTrap": 29,
+        "RatNap": 26,
+        "RatSqueak": 429,
+        "SpawnAction": 48,
+        "ThrowRat": 12,
+        "TriggerTrap": 9,
+        "UpgradeToRatKing": 1,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 690711,
+      "gunzipped_bytes": 250228,
+      "path": "runs/match_cache/13/1384ee6da218c82f75545871fa449a04f62e0fbd10721635bdf13ea09c658a38/replay.bc26",
+      "peak_live_units": 39,
+      "raw_bytes": 58596,
+      "rounds": 159,
+      "total_rounds": 159,
+      "trace_tokens": {
+        "level0": 42017,
+        "shrink_window": 27944,
+        "stride40": 41373,
+        "windows_only": 40729
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 66,
+        "PlaceTrap": 125,
+        "RatNap": 108,
+        "RatSqueak": 591,
+        "SpawnAction": 83,
+        "ThrowRat": 46,
+        "TriggerTrap": 119,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 716474,
+      "gunzipped_bytes": 253324,
+      "path": "runs/match_cache/14/149001db149df8ae8a4019b0c02bc7527010d23833a5cd30437611b0c742f465/replay.bc26",
+      "peak_live_units": 42,
+      "raw_bytes": 62905,
+      "rounds": 164,
+      "total_rounds": 164,
+      "trace_tokens": {
+        "level0": 45966,
+        "shrink_window": 34977,
+        "stride40": 45399,
+        "windows_only": 44638
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 7,
+        "PlaceTrap": 16,
+        "RatNap": 18,
+        "RatSqueak": 292,
+        "SpawnAction": 26,
+        "ThrowRat": 8,
+        "TriggerTrap": 13,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 216850,
+      "gunzipped_bytes": 86204,
+      "path": "runs/match_cache/16/166777b158c36920cca1cf27012bbe9c351629f66e7b02874d94cfdf95c81ccc/replay.bc26",
+      "peak_live_units": 26,
+      "raw_bytes": 19467,
+      "rounds": 64,
+      "total_rounds": 64,
+      "trace_tokens": {
+        "level0": 19774,
+        "shrink_window": 15641,
+        "stride40": 19774,
+        "windows_only": 19774
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 0,
+        "PlaceTrap": 0,
+        "RatNap": 2952,
+        "RatSqueak": 31241,
+        "SpawnAction": 47,
+        "ThrowRat": 0,
+        "TriggerTrap": 0,
+        "UpgradeToRatKing": 0,
+        "died_ids": 48
+      },
+      "full_decode_json_bytes": 8710012,
+      "gunzipped_bytes": 3078884,
+      "path": "runs/match_cache/20/20559ae08a1a24b0a97c0dd246027a1dc2be14f150ae0b3ad2bc2e1796ee8f28/replay.bc26",
+      "peak_live_units": 76,
+      "raw_bytes": 431405,
+      "rounds": 1200,
+      "total_rounds": 1200,
+      "trace_tokens": {
+        "level0": 559819,
+        "shrink_window": 535712,
+        "stride40": 548358,
+        "windows_only": 537414
+      },
+      "win_type": "RESIGNATION",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 2,
+        "CatPounce": 0,
+        "DieAction": 82,
+        "PlaceTrap": 82,
+        "RatNap": 288,
+        "RatSqueak": 2118,
+        "SpawnAction": 97,
+        "ThrowRat": 94,
+        "TriggerTrap": 80,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 945099,
+      "gunzipped_bytes": 329564,
+      "path": "runs/match_cache/21/21eb8ef9f613934fec923b2b90503b8c22890b5cbcd868551491a560839ebcc8/replay.bc26",
+      "peak_live_units": 52,
+      "raw_bytes": 86224,
+      "rounds": 153,
+      "total_rounds": 153,
+      "trace_tokens": {
+        "level0": 67785,
+        "shrink_window": 54784,
+        "stride40": 66761,
+        "windows_only": 65818
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 4,
+        "PlaceTrap": 18,
+        "RatNap": 4,
+        "RatSqueak": 584,
+        "SpawnAction": 23,
+        "ThrowRat": 2,
+        "TriggerTrap": 7,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 301458,
+      "gunzipped_bytes": 116016,
+      "path": "runs/match_cache/23/2394217100d41e0ff2b08d8acb4435d1356eb48c4c3f2b40c1e84af5bc4dedfb/replay.bc26",
+      "peak_live_units": 27,
+      "raw_bytes": 26393,
+      "rounds": 77,
+      "total_rounds": 77,
+      "trace_tokens": {
+        "level0": 29692,
+        "shrink_window": 25963,
+        "stride40": 29692,
+        "windows_only": 29692
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 74,
+        "PlaceTrap": 112,
+        "RatNap": 187,
+        "RatSqueak": 2587,
+        "SpawnAction": 89,
+        "ThrowRat": 56,
+        "TriggerTrap": 110,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 895206,
+      "gunzipped_bytes": 312400,
+      "path": "runs/match_cache/23/2398fdda1f7b93623dd48c171d5f10a69fd32d7a369953826b77208ba89041d7/replay.bc26",
+      "peak_live_units": 47,
+      "raw_bytes": 80328,
+      "rounds": 157,
+      "total_rounds": 157,
+      "trace_tokens": {
+        "level0": 75393,
+        "shrink_window": 64104,
+        "stride40": 74489,
+        "windows_only": 73629
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 2,
+        "CatPounce": 0,
+        "DieAction": 99,
+        "PlaceTrap": 143,
+        "RatNap": 266,
+        "RatSqueak": 2901,
+        "SpawnAction": 114,
+        "ThrowRat": 83,
+        "TriggerTrap": 135,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1717531,
+      "gunzipped_bytes": 614204,
+      "path": "runs/match_cache/2d/2d31dca2380f2121b4fc46761b7aa2dccf4aae38de7eac4f7f87b8af296fed9a/replay.bc26",
+      "peak_live_units": 42,
+      "raw_bytes": 153137,
+      "rounds": 323,
+      "total_rounds": 323,
+      "trace_tokens": {
+        "level0": 91229,
+        "shrink_window": 74949,
+        "stride40": 88712,
+        "windows_only": 86182
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 2,
+        "CatPounce": 0,
+        "DieAction": 100,
+        "PlaceTrap": 118,
+        "RatNap": 353,
+        "RatSqueak": 2794,
+        "SpawnAction": 126,
+        "ThrowRat": 108,
+        "TriggerTrap": 110,
+        "UpgradeToRatKing": 0,
+        "died_ids": 8
+      },
+      "full_decode_json_bytes": 1867844,
+      "gunzipped_bytes": 659828,
+      "path": "runs/match_cache/2e/2e18b0f0a76393d944413eac118ac8cefc37c89651228526a22ec83f1af86ebc/replay.bc26",
+      "peak_live_units": 42,
+      "raw_bytes": 167359,
+      "rounds": 348,
+      "total_rounds": 348,
+      "trace_tokens": {
+        "level0": 96199,
+        "shrink_window": 79727,
+        "stride40": 93668,
+        "windows_only": 91111
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 79,
+        "PlaceTrap": 107,
+        "RatNap": 301,
+        "RatSqueak": 2187,
+        "SpawnAction": 104,
+        "ThrowRat": 82,
+        "TriggerTrap": 107,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1099303,
+      "gunzipped_bytes": 387284,
+      "path": "runs/match_cache/2e/2e3811705e87a0f3dc061fdc25f8cea3a114a0e58caa161ac102f0a0789eaf6d/replay.bc26",
+      "peak_live_units": 46,
+      "raw_bytes": 98550,
+      "rounds": 206,
+      "total_rounds": 206,
+      "trace_tokens": {
+        "level0": 75951,
+        "shrink_window": 62660,
+        "stride40": 74803,
+        "windows_only": 73667
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 74,
+        "PlaceTrap": 92,
+        "RatNap": 294,
+        "RatSqueak": 2257,
+        "SpawnAction": 89,
+        "ThrowRat": 80,
+        "TriggerTrap": 82,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1048979,
+      "gunzipped_bytes": 371352,
+      "path": "runs/match_cache/31/31e6d9694f84341e9d18dffd43d1fb73cd2ae655ccf99e400c27498d2f368bd0/replay.bc26",
+      "peak_live_units": 61,
+      "raw_bytes": 96461,
+      "rounds": 181,
+      "total_rounds": 181,
+      "trace_tokens": {
+        "level0": 71025,
+        "shrink_window": 58333,
+        "stride40": 70066,
+        "windows_only": 68696
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 19,
+        "RatNap": 0,
+        "RatSqueak": 217,
+        "SpawnAction": 16,
+        "ThrowRat": 0,
+        "TriggerTrap": 11,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 141946,
+      "gunzipped_bytes": 60496,
+      "path": "runs/match_cache/33/33666d85950cc9b3c375cea904ba4c4788f57de1dfc95daea8124d36cffa82dc/replay.bc26",
+      "peak_live_units": 20,
+      "raw_bytes": 13221,
+      "rounds": 54,
+      "total_rounds": 54,
+      "trace_tokens": {
+        "level0": 14842,
+        "shrink_window": 10471,
+        "stride40": 14842,
+        "windows_only": 14842
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 4,
+        "PlaceTrap": 42,
+        "RatNap": 4,
+        "RatSqueak": 21,
+        "SpawnAction": 7,
+        "ThrowRat": 2,
+        "TriggerTrap": 9,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1404697,
+      "gunzipped_bytes": 539620,
+      "path": "runs/match_cache/34/3432dce74d95001c99467933973e6ef8181d69afd38b2f54419d83f019a4f6f6/replay.bc26",
+      "peak_live_units": 10,
+      "raw_bytes": 82954,
+      "rounds": 966,
+      "total_rounds": 966,
+      "trace_tokens": {
+        "level0": 46705,
+        "shrink_window": 38923,
+        "stride40": 44083,
+        "windows_only": 41689
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 6,
+        "PlaceTrap": 5,
+        "RatNap": 18,
+        "RatSqueak": 151,
+        "SpawnAction": 25,
+        "ThrowRat": 8,
+        "TriggerTrap": 4,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 191234,
+      "gunzipped_bytes": 71660,
+      "path": "runs/match_cache/34/3473ada6079b4174552cc97184273952ca75093fa288f321675f0c1566f54545/replay.bc26",
+      "peak_live_units": 29,
+      "raw_bytes": 17371,
+      "rounds": 51,
+      "total_rounds": 51,
+      "trace_tokens": {
+        "level0": 17225,
+        "shrink_window": 14781,
+        "stride40": 17225,
+        "windows_only": 17225
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 3,
+        "PlaceTrap": 25,
+        "RatNap": 3,
+        "RatSqueak": 99,
+        "SpawnAction": 22,
+        "ThrowRat": 1,
+        "TriggerTrap": 9,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 215058,
+      "gunzipped_bytes": 84116,
+      "path": "runs/match_cache/3b/3b29bf14df34be637341e5313950b65e125e4c21e491dd860920bbfaad391d22/replay.bc26",
+      "peak_live_units": 26,
+      "raw_bytes": 17693,
+      "rounds": 61,
+      "total_rounds": 61,
+      "trace_tokens": {
+        "level0": 17191,
+        "shrink_window": 13054,
+        "stride40": 17191,
+        "windows_only": 17191
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 1,
+        "RatNap": 0,
+        "RatSqueak": 176,
+        "SpawnAction": 12,
+        "ThrowRat": 0,
+        "TriggerTrap": 1,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 163073,
+      "gunzipped_bytes": 63700,
+      "path": "runs/match_cache/44/4448a7b313895abd2ba34e782c511f47f2329f2abb39d80c5aa34793bc714ef5/replay.bc26",
+      "peak_live_units": 16,
+      "raw_bytes": 14040,
+      "rounds": 63,
+      "total_rounds": 63,
+      "trace_tokens": {
+        "level0": 14849,
+        "shrink_window": 12190,
+        "stride40": 14849,
+        "windows_only": 14849
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 9,
+        "PlaceTrap": 52,
+        "RatNap": 19,
+        "RatSqueak": 283,
+        "SpawnAction": 32,
+        "ThrowRat": 7,
+        "TriggerTrap": 17,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 371384,
+      "gunzipped_bytes": 136200,
+      "path": "runs/match_cache/47/473bf52cc01a3ee7ab062a4331d67b480535db74256b695ca7d674acc1af2241/replay.bc26",
+      "peak_live_units": 31,
+      "raw_bytes": 32785,
+      "rounds": 93,
+      "total_rounds": 93,
+      "trace_tokens": {
+        "level0": 31031,
+        "shrink_window": 20716,
+        "stride40": 31031,
+        "windows_only": 30709
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 6,
+        "PlaceTrap": 37,
+        "RatNap": 6,
+        "RatSqueak": 14,
+        "SpawnAction": 8,
+        "ThrowRat": 3,
+        "TriggerTrap": 2,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1339307,
+      "gunzipped_bytes": 512056,
+      "path": "runs/match_cache/48/48d86add598620b095270d7bebbc26e61f3d9c7e0aa56d52c86d36febb9a2d9f/replay.bc26",
+      "peak_live_units": 10,
+      "raw_bytes": 78743,
+      "rounds": 925,
+      "total_rounds": 925,
+      "trace_tokens": {
+        "level0": 44240,
+        "shrink_window": 37035,
+        "stride40": 41846,
+        "windows_only": 39452
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 2,
+        "CatPounce": 0,
+        "DieAction": 9,
+        "PlaceTrap": 5,
+        "RatNap": 25,
+        "RatSqueak": 149,
+        "SpawnAction": 28,
+        "ThrowRat": 12,
+        "TriggerTrap": 4,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 313843,
+      "gunzipped_bytes": 120820,
+      "path": "runs/match_cache/4c/4cf8ec72ef39aaede1abe4ea1bd515804bcaccd5a25501fa0deba272a14d0e85/replay.bc26",
+      "peak_live_units": 28,
+      "raw_bytes": 27383,
+      "rounds": 83,
+      "total_rounds": 83,
+      "trace_tokens": {
+        "level0": 19954,
+        "shrink_window": 15928,
+        "stride40": 19632,
+        "windows_only": 19632
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 4,
+        "CatPounce": 0,
+        "DieAction": 114,
+        "PlaceTrap": 115,
+        "RatNap": 332,
+        "RatSqueak": 3024,
+        "SpawnAction": 135,
+        "ThrowRat": 123,
+        "TriggerTrap": 110,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1776857,
+      "gunzipped_bytes": 623472,
+      "path": "runs/match_cache/4e/4e58c32bcfe872f40d17dacafbcdaa4da986a2d3a90e5580dc1e81db96abace6/replay.bc26",
+      "peak_live_units": 46,
+      "raw_bytes": 156594,
+      "rounds": 318,
+      "total_rounds": 318,
+      "trace_tokens": {
+        "level0": 94410,
+        "shrink_window": 78504,
+        "stride40": 91904,
+        "windows_only": 89309
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 80,
+        "PlaceTrap": 104,
+        "RatNap": 209,
+        "RatSqueak": 966,
+        "SpawnAction": 98,
+        "ThrowRat": 79,
+        "TriggerTrap": 85,
+        "UpgradeToRatKing": 1,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 2022185,
+      "gunzipped_bytes": 715012,
+      "path": "runs/match_cache/51/518b824405cf0af2dc2827b54e53bc29bc9ee3a900a706c273080029117f5c4f/replay.bc26",
+      "peak_live_units": 43,
+      "raw_bytes": 168106,
+      "rounds": 394,
+      "total_rounds": 394,
+      "trace_tokens": {
+        "level0": 66741,
+        "shrink_window": 48735,
+        "stride40": 63346,
+        "windows_only": 59872
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 2,
+        "PlaceTrap": 0,
+        "RatNap": 0,
+        "RatSqueak": 340,
+        "SpawnAction": 17,
+        "ThrowRat": 0,
+        "TriggerTrap": 0,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 257227,
+      "gunzipped_bytes": 103112,
+      "path": "runs/match_cache/52/52300d9520bde6f2651898734466ed53ea855565399dd972a3b059334ec68d17/replay.bc26",
+      "peak_live_units": 20,
+      "raw_bytes": 22532,
+      "rounds": 82,
+      "total_rounds": 82,
+      "trace_tokens": {
+        "level0": 20697,
+        "shrink_window": 17050,
+        "stride40": 20427,
+        "windows_only": 20427
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 14,
+        "RatNap": 0,
+        "RatSqueak": 261,
+        "SpawnAction": 19,
+        "ThrowRat": 0,
+        "TriggerTrap": 9,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 238200,
+      "gunzipped_bytes": 91920,
+      "path": "runs/match_cache/52/52700b35e86637fbc82eff048dec336dd6a665ed51ae17833ad2a812dd88e2e1/replay.bc26",
+      "peak_live_units": 23,
+      "raw_bytes": 21337,
+      "rounds": 73,
+      "total_rounds": 73,
+      "trace_tokens": {
+        "level0": 20667,
+        "shrink_window": 16735,
+        "stride40": 20397,
+        "windows_only": 20397
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 5,
+        "PlaceTrap": 22,
+        "RatNap": 6,
+        "RatSqueak": 559,
+        "SpawnAction": 36,
+        "ThrowRat": 3,
+        "TriggerTrap": 9,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 174508,
+      "gunzipped_bytes": 65096,
+      "path": "runs/match_cache/59/59871f1229ef8ef998c9d310a29aea0fdc33a6243bd244a9e2a2f5480bea8408/replay.bc26",
+      "peak_live_units": 36,
+      "raw_bytes": 15715,
+      "rounds": 38,
+      "total_rounds": 38,
+      "trace_tokens": {
+        "level0": 21134,
+        "shrink_window": 20266,
+        "stride40": 21134,
+        "windows_only": 21134
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 0,
+        "PlaceTrap": 0,
+        "RatNap": 2161,
+        "RatSqueak": 25476,
+        "SpawnAction": 23,
+        "ThrowRat": 0,
+        "TriggerTrap": 0,
+        "UpgradeToRatKing": 0,
+        "died_ids": 24
+      },
+      "full_decode_json_bytes": 7269163,
+      "gunzipped_bytes": 2556288,
+      "path": "runs/match_cache/5b/5b80e60fa4c10a70cc7be8dae03788f4b44955c5f429b595842cf90cd455f732/replay.bc26",
+      "peak_live_units": 39,
+      "raw_bytes": 329701,
+      "rounds": 1200,
+      "total_rounds": 1200,
+      "trace_tokens": {
+        "level0": 459092,
+        "shrink_window": 438417,
+        "stride40": 449243,
+        "windows_only": 439703
+      },
+      "win_type": "RESIGNATION",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 9,
+        "PlaceTrap": 7,
+        "RatNap": 24,
+        "RatSqueak": 194,
+        "SpawnAction": 28,
+        "ThrowRat": 10,
+        "TriggerTrap": 7,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 245082,
+      "gunzipped_bytes": 92444,
+      "path": "runs/match_cache/5f/5f00a8419aad4e528e043c093fad5cc853225512ee411b61ff53d2dad8b28f1c/replay.bc26",
+      "peak_live_units": 29,
+      "raw_bytes": 22156,
+      "rounds": 65,
+      "total_rounds": 65,
+      "trace_tokens": {
+        "level0": 19708,
+        "shrink_window": 15335,
+        "stride40": 19708,
+        "windows_only": 19708
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 3,
+        "PlaceTrap": 16,
+        "RatNap": 0,
+        "RatSqueak": 128,
+        "SpawnAction": 19,
+        "ThrowRat": 0,
+        "TriggerTrap": 7,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 238619,
+      "gunzipped_bytes": 93724,
+      "path": "runs/match_cache/5f/5f4bcca9d87bc65c1cba9ed9ee25eec6e37ad9da74c25ff18e3d7725fb7968ab/replay.bc26",
+      "peak_live_units": 21,
+      "raw_bytes": 21257,
+      "rounds": 76,
+      "total_rounds": 76,
+      "trace_tokens": {
+        "level0": 18407,
+        "shrink_window": 14526,
+        "stride40": 18124,
+        "windows_only": 18124
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 3,
+        "PlaceTrap": 14,
+        "RatNap": 0,
+        "RatSqueak": 179,
+        "SpawnAction": 18,
+        "ThrowRat": 0,
+        "TriggerTrap": 2,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 207999,
+      "gunzipped_bytes": 82620,
+      "path": "runs/match_cache/67/67137f72dab2c706e7324cd2f688e804ce62bf0fea05ba6f25b12fe67b00b689/replay.bc26",
+      "peak_live_units": 21,
+      "raw_bytes": 18872,
+      "rounds": 68,
+      "total_rounds": 68,
+      "trace_tokens": {
+        "level0": 17679,
+        "shrink_window": 11374,
+        "stride40": 17679,
+        "windows_only": 17679
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 77,
+        "PlaceTrap": 125,
+        "RatNap": 149,
+        "RatSqueak": 3284,
+        "SpawnAction": 97,
+        "ThrowRat": 56,
+        "TriggerTrap": 119,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1695036,
+      "gunzipped_bytes": 599328,
+      "path": "runs/match_cache/67/67924ddef5de5f53cecc988c226f36a411da0a2971e173ab5f61060cefb28efe/replay.bc26",
+      "peak_live_units": 45,
+      "raw_bytes": 148944,
+      "rounds": 296,
+      "total_rounds": 296,
+      "trace_tokens": {
+        "level0": 95837,
+        "shrink_window": 78791,
+        "stride40": 93458,
+        "windows_only": 90829
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 1,
+        "RatNap": 0,
+        "RatSqueak": 121,
+        "SpawnAction": 12,
+        "ThrowRat": 0,
+        "TriggerTrap": 1,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 140498,
+      "gunzipped_bytes": 56552,
+      "path": "runs/match_cache/67/67df5fc8e0efcf69acb07303fd135d2256e9d1d78ab1d00d1b3c3e5e111c5fc5/replay.bc26",
+      "peak_live_units": 16,
+      "raw_bytes": 12673,
+      "rounds": 55,
+      "total_rounds": 55,
+      "trace_tokens": {
+        "level0": 13416,
+        "shrink_window": 8900,
+        "stride40": 13416,
+        "windows_only": 13416
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 7,
+        "PlaceTrap": 40,
+        "RatNap": 1716,
+        "RatSqueak": 18329,
+        "SpawnAction": 32,
+        "ThrowRat": 7,
+        "TriggerTrap": 5,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 5841105,
+      "gunzipped_bytes": 2034880,
+      "path": "runs/match_cache/68/68d6fd3eaa94cd4713f259af01c5a96e4b2c890812afeaf468b623d05afd6726/replay.bc26",
+      "peak_live_units": 43,
+      "raw_bytes": 297295,
+      "rounds": 940,
+      "total_rounds": 940,
+      "trace_tokens": {
+        "level0": 341288,
+        "shrink_window": 321379,
+        "stride40": 333938,
+        "windows_only": 325827
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 19,
+        "RatNap": 0,
+        "RatSqueak": 389,
+        "SpawnAction": 28,
+        "ThrowRat": 0,
+        "TriggerTrap": 4,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 106163,
+      "gunzipped_bytes": 41992,
+      "path": "runs/match_cache/69/692b92c72ade38f2675f49b33919d65ba50d267bf93dd2ad1bd5a57a64d2552a/replay.bc26",
+      "peak_live_units": 32,
+      "raw_bytes": 9660,
+      "rounds": 30,
+      "total_rounds": 30,
+      "trace_tokens": {
+        "level0": 13809,
+        "shrink_window": 13516,
+        "stride40": 13809,
+        "windows_only": 13809
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 7,
+        "PlaceTrap": 22,
+        "RatNap": 20,
+        "RatSqueak": 166,
+        "SpawnAction": 27,
+        "ThrowRat": 10,
+        "TriggerTrap": 20,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 282516,
+      "gunzipped_bytes": 104900,
+      "path": "runs/match_cache/69/69a1b4f1ffeb4b896d50dc2e41b3d26afcbd936972014c924e213a7dd8be1f1a/replay.bc26",
+      "peak_live_units": 29,
+      "raw_bytes": 25316,
+      "rounds": 75,
+      "total_rounds": 75,
+      "trace_tokens": {
+        "level0": 26365,
+        "shrink_window": 17283,
+        "stride40": 26365,
+        "windows_only": 26365
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 7,
+        "PlaceTrap": 45,
+        "RatNap": 6,
+        "RatSqueak": 187,
+        "SpawnAction": 26,
+        "ThrowRat": 3,
+        "TriggerTrap": 27,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 487550,
+      "gunzipped_bytes": 183660,
+      "path": "runs/match_cache/6c/6ceed9c6ba2b2e978b99655aed1d704dc90aee54dd0a38b2b00826dd2d8030e3/replay.bc26",
+      "peak_live_units": 27,
+      "raw_bytes": 40881,
+      "rounds": 129,
+      "total_rounds": 129,
+      "trace_tokens": {
+        "level0": 30540,
+        "shrink_window": 19556,
+        "stride40": 29883,
+        "windows_only": 29883
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 2,
+        "PlaceTrap": 3,
+        "RatNap": 0,
+        "RatSqueak": 292,
+        "SpawnAction": 18,
+        "ThrowRat": 0,
+        "TriggerTrap": 3,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 251202,
+      "gunzipped_bytes": 100804,
+      "path": "runs/match_cache/6f/6fa191bd7afb51fb195d9f05aecb33eea475ab67c1daa6ca6ad6e180f849bbb4/replay.bc26",
+      "peak_live_units": 22,
+      "raw_bytes": 21616,
+      "rounds": 78,
+      "total_rounds": 78,
+      "trace_tokens": {
+        "level0": 20513,
+        "shrink_window": 16896,
+        "stride40": 20230,
+        "windows_only": 20230
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 2,
+        "PlaceTrap": 19,
+        "RatNap": 12,
+        "RatSqueak": 647,
+        "SpawnAction": 33,
+        "ThrowRat": 5,
+        "TriggerTrap": 5,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 190430,
+      "gunzipped_bytes": 71208,
+      "path": "runs/match_cache/71/7155222256e18722a2e92779c2e459caeb1c03b7d9c466c4e998136c35a4e145/replay.bc26",
+      "peak_live_units": 40,
+      "raw_bytes": 16849,
+      "rounds": 40,
+      "total_rounds": 40,
+      "trace_tokens": {
+        "level0": 22873,
+        "shrink_window": 21435,
+        "stride40": 22873,
+        "windows_only": 22873
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 11,
+        "PlaceTrap": 29,
+        "RatNap": 8,
+        "RatSqueak": 437,
+        "SpawnAction": 30,
+        "ThrowRat": 0,
+        "TriggerTrap": 9,
+        "UpgradeToRatKing": 1,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 744353,
+      "gunzipped_bytes": 281680,
+      "path": "runs/match_cache/77/77435598b8162258349052b691760cf2789ac3bf6498e08352a2af34fefde953/replay.bc26",
+      "peak_live_units": 25,
+      "raw_bytes": 61500,
+      "rounds": 209,
+      "total_rounds": 209,
+      "trace_tokens": {
+        "level0": 36813,
+        "shrink_window": 25275,
+        "stride40": 35603,
+        "windows_only": 35011
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 14,
+        "RatNap": 0,
+        "RatSqueak": 87,
+        "SpawnAction": 16,
+        "ThrowRat": 0,
+        "TriggerTrap": 2,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 136658,
+      "gunzipped_bytes": 57220,
+      "path": "runs/match_cache/77/77fa144057486239bb387fd3be171948506ed85fa108df7f0bd32fdf334f553a/replay.bc26",
+      "peak_live_units": 20,
+      "raw_bytes": 11094,
+      "rounds": 48,
+      "total_rounds": 48,
+      "trace_tokens": {
+        "level0": 12355,
+        "shrink_window": 8726,
+        "stride40": 12355,
+        "windows_only": 12355
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 16,
+        "PlaceTrap": 48,
+        "RatNap": 30,
+        "RatSqueak": 452,
+        "SpawnAction": 36,
+        "ThrowRat": 14,
+        "TriggerTrap": 32,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 526156,
+      "gunzipped_bytes": 194796,
+      "path": "runs/match_cache/79/79fa4a12547cfb9081634db80427efc08f5f1cca06ae36822e038520f54b2782/replay.bc26",
+      "peak_live_units": 31,
+      "raw_bytes": 46017,
+      "rounds": 133,
+      "total_rounds": 133,
+      "trace_tokens": {
+        "level0": 36386,
+        "shrink_window": 24879,
+        "stride40": 36077,
+        "windows_only": 35420
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 5,
+        "PlaceTrap": 21,
+        "RatNap": 201,
+        "RatSqueak": 2370,
+        "SpawnAction": 49,
+        "ThrowRat": 0,
+        "TriggerTrap": 8,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 865871,
+      "gunzipped_bytes": 304640,
+      "path": "runs/match_cache/7e/7ee7b5ef565dc1ece9265d67b35f7b5bdf944311b8d753acb61522c69c72758c/replay.bc26",
+      "peak_live_units": 59,
+      "raw_bytes": 60495,
+      "rounds": 110,
+      "total_rounds": 110,
+      "trace_tokens": {
+        "level0": 62812,
+        "shrink_window": 52623,
+        "stride40": 62056,
+        "windows_only": 62056
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 5,
+        "PlaceTrap": 13,
+        "RatNap": 2,
+        "RatSqueak": 508,
+        "SpawnAction": 31,
+        "ThrowRat": 0,
+        "TriggerTrap": 12,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 501578,
+      "gunzipped_bytes": 191488,
+      "path": "runs/match_cache/7f/7f09ff3e2dab889d225858d0bf108258081364852f931906d68011ad98d9684c/replay.bc26",
+      "peak_live_units": 32,
+      "raw_bytes": 42622,
+      "rounds": 138,
+      "total_rounds": 138,
+      "trace_tokens": {
+        "level0": 35469,
+        "shrink_window": 25192,
+        "stride40": 35186,
+        "windows_only": 34903
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 3,
+        "PlaceTrap": 17,
+        "RatNap": 7,
+        "RatSqueak": 87,
+        "SpawnAction": 22,
+        "ThrowRat": 3,
+        "TriggerTrap": 5,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 160197,
+      "gunzipped_bytes": 60412,
+      "path": "runs/match_cache/83/8313c4731ec2ab21b94d97a7670fa113162f441ec9483937fe52e3cb1989796c/replay.bc26",
+      "peak_live_units": 26,
+      "raw_bytes": 13741,
+      "rounds": 47,
+      "total_rounds": 47,
+      "trace_tokens": {
+        "level0": 14784,
+        "shrink_window": 13544,
+        "stride40": 14784,
+        "windows_only": 14784
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 18,
+        "RatNap": 149,
+        "RatSqueak": 2246,
+        "SpawnAction": 36,
+        "ThrowRat": 0,
+        "TriggerTrap": 11,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 692285,
+      "gunzipped_bytes": 249668,
+      "path": "runs/match_cache/84/84dd0f214992669ea765fcca98f435326b3432cabd3908714f9fcd75262f334a/replay.bc26",
+      "peak_live_units": 51,
+      "raw_bytes": 48112,
+      "rounds": 92,
+      "total_rounds": 92,
+      "trace_tokens": {
+        "level0": 52968,
+        "shrink_window": 47446,
+        "stride40": 52438,
+        "windows_only": 52438
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 4,
+        "PlaceTrap": 6,
+        "RatNap": 33,
+        "RatSqueak": 260,
+        "SpawnAction": 19,
+        "ThrowRat": 16,
+        "TriggerTrap": 1,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 247321,
+      "gunzipped_bytes": 92532,
+      "path": "runs/match_cache/85/85b693f9a03da31435f0cde1d24215fb0c3f5be1519467eff71b1995fef0b5a4/replay.bc26",
+      "peak_live_units": 24,
+      "raw_bytes": 21749,
+      "rounds": 74,
+      "total_rounds": 74,
+      "trace_tokens": {
+        "level0": 22732,
+        "shrink_window": 16416,
+        "stride40": 22732,
+        "windows_only": 22732
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 2,
+        "CatPounce": 0,
+        "DieAction": 110,
+        "PlaceTrap": 148,
+        "RatNap": 297,
+        "RatSqueak": 3395,
+        "SpawnAction": 128,
+        "ThrowRat": 99,
+        "TriggerTrap": 138,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 2036999,
+      "gunzipped_bytes": 726440,
+      "path": "runs/match_cache/86/860b544126a11885334c77b5987cd33f79a30d8bc6d2ecfb904f884326a0898b/replay.bc26",
+      "peak_live_units": 47,
+      "raw_bytes": 181658,
+      "rounds": 376,
+      "total_rounds": 376,
+      "trace_tokens": {
+        "level0": 102063,
+        "shrink_window": 85542,
+        "stride40": 99107,
+        "windows_only": 95789
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 5,
+        "PlaceTrap": 8,
+        "RatNap": 0,
+        "RatSqueak": 153,
+        "SpawnAction": 24,
+        "ThrowRat": 0,
+        "TriggerTrap": 5,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 324732,
+      "gunzipped_bytes": 127480,
+      "path": "runs/match_cache/86/864fea4086345380fc92ef5a5b05b3179cb10dc8ec4f191f49add9bc6d2a72b1/replay.bc26",
+      "peak_live_units": 23,
+      "raw_bytes": 28115,
+      "rounds": 104,
+      "total_rounds": 104,
+      "trace_tokens": {
+        "level0": 18828,
+        "shrink_window": 14773,
+        "stride40": 18558,
+        "windows_only": 18288
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 2,
+        "PlaceTrap": 44,
+        "RatNap": 0,
+        "RatSqueak": 434,
+        "SpawnAction": 17,
+        "ThrowRat": 0,
+        "TriggerTrap": 11,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 208807,
+      "gunzipped_bytes": 84316,
+      "path": "runs/match_cache/87/87c6cf58b28d8913c6196b1b50504e8c97f3e5de5578238cd0e2a0f3c99fe640/replay.bc26",
+      "peak_live_units": 20,
+      "raw_bytes": 18629,
+      "rounds": 72,
+      "total_rounds": 72,
+      "trace_tokens": {
+        "level0": 20198,
+        "shrink_window": 17483,
+        "stride40": 19980,
+        "windows_only": 19980
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 2,
+        "PlaceTrap": 4,
+        "RatNap": 0,
+        "RatSqueak": 96,
+        "SpawnAction": 23,
+        "ThrowRat": 0,
+        "TriggerTrap": 3,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 222975,
+      "gunzipped_bytes": 87868,
+      "path": "runs/match_cache/8e/8e41437f911c22e8fdc42838597a1e9666a4d3ddcdbb7421bcc1d7f0e5a52c0e/replay.bc26",
+      "peak_live_units": 25,
+      "raw_bytes": 19747,
+      "rounds": 72,
+      "total_rounds": 72,
+      "trace_tokens": {
+        "level0": 17430,
+        "shrink_window": 12878,
+        "stride40": 17147,
+        "windows_only": 17147
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 10,
+        "PlaceTrap": 46,
+        "RatNap": 45,
+        "RatSqueak": 239,
+        "SpawnAction": 35,
+        "ThrowRat": 21,
+        "TriggerTrap": 11,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 377682,
+      "gunzipped_bytes": 136828,
+      "path": "runs/match_cache/9e/9e05f219b9dd7f4e5568dded73534a687cc799918d207cca60b97757da2f1bd3/replay.bc26",
+      "peak_live_units": 30,
+      "raw_bytes": 31986,
+      "rounds": 110,
+      "total_rounds": 110,
+      "trace_tokens": {
+        "level0": 28177,
+        "shrink_window": 19520,
+        "stride40": 27926,
+        "windows_only": 27656
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 6,
+        "PlaceTrap": 1,
+        "RatNap": 0,
+        "RatSqueak": 126,
+        "SpawnAction": 21,
+        "ThrowRat": 0,
+        "TriggerTrap": 1,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 277002,
+      "gunzipped_bytes": 109816,
+      "path": "runs/match_cache/a3/a39853d1497900a931f6da46b3673bcceb5555d3a888170793f003843e926b8b/replay.bc26",
+      "peak_live_units": 20,
+      "raw_bytes": 24196,
+      "rounds": 90,
+      "total_rounds": 90,
+      "trace_tokens": {
+        "level0": 16965,
+        "shrink_window": 13485,
+        "stride40": 16695,
+        "windows_only": 16458
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 88,
+        "PlaceTrap": 110,
+        "RatNap": 221,
+        "RatSqueak": 3911,
+        "SpawnAction": 104,
+        "ThrowRat": 82,
+        "TriggerTrap": 109,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1579978,
+      "gunzipped_bytes": 557420,
+      "path": "runs/match_cache/a5/a598ede85e1ce59f3567339ca40f309fc080f4922e4a102178f4f7002b141cd0/replay.bc26",
+      "peak_live_units": 51,
+      "raw_bytes": 140051,
+      "rounds": 264,
+      "total_rounds": 264,
+      "trace_tokens": {
+        "level0": 103476,
+        "shrink_window": 88060,
+        "stride40": 101538,
+        "windows_only": 99639
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 5,
+        "PlaceTrap": 15,
+        "RatNap": 0,
+        "RatSqueak": 392,
+        "SpawnAction": 34,
+        "ThrowRat": 0,
+        "TriggerTrap": 14,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 514103,
+      "gunzipped_bytes": 198556,
+      "path": "runs/match_cache/a8/a8b7dfed00532ec77baa220d0dcfd5699aea0233da7322abb2e56f2c11b47a31/replay.bc26",
+      "peak_live_units": 34,
+      "raw_bytes": 45061,
+      "rounds": 142,
+      "total_rounds": 142,
+      "trace_tokens": {
+        "level0": 31611,
+        "shrink_window": 24541,
+        "stride40": 31071,
+        "windows_only": 30531
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 26,
+        "RatNap": 0,
+        "RatSqueak": 579,
+        "SpawnAction": 28,
+        "ThrowRat": 0,
+        "TriggerTrap": 2,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 147020,
+      "gunzipped_bytes": 56400,
+      "path": "runs/match_cache/a9/a97bba17a254af87699d281a6cf99dfce2dc40089f09ea2d0561e3c84a1c0d3b/replay.bc26",
+      "peak_live_units": 32,
+      "raw_bytes": 12933,
+      "rounds": 37,
+      "total_rounds": 37,
+      "trace_tokens": {
+        "level0": 19194,
+        "shrink_window": 17936,
+        "stride40": 19194,
+        "windows_only": 19194
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 23,
+        "PlaceTrap": 43,
+        "RatNap": 148,
+        "RatSqueak": 1725,
+        "SpawnAction": 51,
+        "ThrowRat": 21,
+        "TriggerTrap": 30,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 702028,
+      "gunzipped_bytes": 251416,
+      "path": "runs/match_cache/b7/b7d42793f6092eb65427a7daab1448dcfc653b2d873258f822f2c0ff2484c141/replay.bc26",
+      "peak_live_units": 54,
+      "raw_bytes": 61000,
+      "rounds": 116,
+      "total_rounds": 116,
+      "trace_tokens": {
+        "level0": 61323,
+        "shrink_window": 47293,
+        "stride40": 60858,
+        "windows_only": 60406
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 10,
+        "CatPounce": 0,
+        "DieAction": 96,
+        "PlaceTrap": 94,
+        "RatNap": 259,
+        "RatSqueak": 2335,
+        "SpawnAction": 112,
+        "ThrowRat": 90,
+        "TriggerTrap": 89,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1058847,
+      "gunzipped_bytes": 370456,
+      "path": "runs/match_cache/bc/bc62eae633a787f6d874b669175d1752650f75f93a3dd8188e4ecb7cee203e3f/replay.bc26",
+      "peak_live_units": 48,
+      "raw_bytes": 95558,
+      "rounds": 203,
+      "total_rounds": 203,
+      "trace_tokens": {
+        "level0": 71573,
+        "shrink_window": 61173,
+        "stride40": 70449,
+        "windows_only": 69222
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 6,
+        "PlaceTrap": 39,
+        "RatNap": 19,
+        "RatSqueak": 109,
+        "SpawnAction": 9,
+        "ThrowRat": 7,
+        "TriggerTrap": 4,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1581275,
+      "gunzipped_bytes": 593952,
+      "path": "runs/match_cache/bd/bdbb9c0d3e2cf931b94489204e7eb494859ff3cf376ef27df9c3cf045080e3c0/replay.bc26",
+      "peak_live_units": 10,
+      "raw_bytes": 96886,
+      "rounds": 1083,
+      "total_rounds": 1083,
+      "trace_tokens": {
+        "level0": 54002,
+        "shrink_window": 45171,
+        "stride40": 51151,
+        "windows_only": 48300
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 3,
+        "PlaceTrap": 16,
+        "RatNap": 5,
+        "RatSqueak": 83,
+        "SpawnAction": 22,
+        "ThrowRat": 3,
+        "TriggerTrap": 9,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 176437,
+      "gunzipped_bytes": 67192,
+      "path": "runs/match_cache/bd/bdc2c4fc271936859f093d0ff7df5b1b878fabd55d88e0c454ef93fbb2b88a5a/replay.bc26",
+      "peak_live_units": 29,
+      "raw_bytes": 15139,
+      "rounds": 51,
+      "total_rounds": 51,
+      "trace_tokens": {
+        "level0": 15601,
+        "shrink_window": 10661,
+        "stride40": 15601,
+        "windows_only": 15601
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 4,
+        "PlaceTrap": 4,
+        "RatNap": 0,
+        "RatSqueak": 134,
+        "SpawnAction": 19,
+        "ThrowRat": 0,
+        "TriggerTrap": 3,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 203830,
+      "gunzipped_bytes": 79252,
+      "path": "runs/match_cache/be/bebc60735534f65f2172d2fa4a302bd88f0eb056398cac4ab6d1ddae519408cb/replay.bc26",
+      "peak_live_units": 20,
+      "raw_bytes": 18150,
+      "rounds": 67,
+      "total_rounds": 67,
+      "trace_tokens": {
+        "level0": 16134,
+        "shrink_window": 12057,
+        "stride40": 16134,
+        "windows_only": 16134
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 5,
+        "PlaceTrap": 0,
+        "RatNap": 2071,
+        "RatSqueak": 23461,
+        "SpawnAction": 26,
+        "ThrowRat": 0,
+        "TriggerTrap": 0,
+        "UpgradeToRatKing": 0,
+        "died_ids": 22
+      },
+      "full_decode_json_bytes": 6768513,
+      "gunzipped_bytes": 2413328,
+      "path": "runs/match_cache/c0/c048636ba2c109893ac844c46e2a0a91ecef7592f5e5b24e64fb829b1c80cfad/replay.bc26",
+      "peak_live_units": 39,
+      "raw_bytes": 313040,
+      "rounds": 1200,
+      "total_rounds": 1200,
+      "trace_tokens": {
+        "level0": 427930,
+        "shrink_window": 408504,
+        "stride40": 418718,
+        "windows_only": 409802
+      },
+      "win_type": "RESIGNATION",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 19,
+        "RatNap": 0,
+        "RatSqueak": 92,
+        "SpawnAction": 16,
+        "ThrowRat": 0,
+        "TriggerTrap": 5,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 133315,
+      "gunzipped_bytes": 55984,
+      "path": "runs/match_cache/c0/c0adb9de9b465c8568ef4f13ebadaeabdf557d096995425ed88179e125cac957/replay.bc26",
+      "peak_live_units": 20,
+      "raw_bytes": 10927,
+      "rounds": 47,
+      "total_rounds": 47,
+      "trace_tokens": {
+        "level0": 12349,
+        "shrink_window": 9023,
+        "stride40": 12349,
+        "windows_only": 12349
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 70,
+        "PlaceTrap": 117,
+        "RatNap": 120,
+        "RatSqueak": 620,
+        "SpawnAction": 85,
+        "ThrowRat": 49,
+        "TriggerTrap": 107,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 824897,
+      "gunzipped_bytes": 293560,
+      "path": "runs/match_cache/c5/c57daee63e052576d478cdf764f88a87bff6fbbe767b5d7e8f6df6f70e7637e6/replay.bc26",
+      "peak_live_units": 41,
+      "raw_bytes": 72468,
+      "rounds": 182,
+      "total_rounds": 182,
+      "trace_tokens": {
+        "level0": 45942,
+        "shrink_window": 33891,
+        "stride40": 45168,
+        "windows_only": 44020
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 16,
+        "RatNap": 7,
+        "RatSqueak": 79,
+        "SpawnAction": 20,
+        "ThrowRat": 3,
+        "TriggerTrap": 4,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 177802,
+      "gunzipped_bytes": 70968,
+      "path": "runs/match_cache/c5/c5ec9017551f72750fb2b84025a90fe07af422571a7e746006c43735deeea61b/replay.bc26",
+      "peak_live_units": 27,
+      "raw_bytes": 15039,
+      "rounds": 51,
+      "total_rounds": 51,
+      "trace_tokens": {
+        "level0": 15463,
+        "shrink_window": 11793,
+        "stride40": 15463,
+        "windows_only": 15463
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 84,
+        "PlaceTrap": 105,
+        "RatNap": 235,
+        "RatSqueak": 2408,
+        "SpawnAction": 112,
+        "ThrowRat": 97,
+        "TriggerTrap": 101,
+        "UpgradeToRatKing": 0,
+        "died_ids": 11
+      },
+      "full_decode_json_bytes": 1316828,
+      "gunzipped_bytes": 466608,
+      "path": "runs/match_cache/ca/cac9da5b615581515cd62edc8ab322c37bcfb049482a415264d8e9bc1a597f23/replay.bc26",
+      "peak_live_units": 44,
+      "raw_bytes": 118512,
+      "rounds": 240,
+      "total_rounds": 240,
+      "trace_tokens": {
+        "level0": 82669,
+        "shrink_window": 66180,
+        "stride40": 81016,
+        "windows_only": 79338
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 71,
+        "PlaceTrap": 88,
+        "RatNap": 167,
+        "RatSqueak": 1278,
+        "SpawnAction": 88,
+        "ThrowRat": 61,
+        "TriggerTrap": 87,
+        "UpgradeToRatKing": 0,
+        "died_ids": 5
+      },
+      "full_decode_json_bytes": 562317,
+      "gunzipped_bytes": 197848,
+      "path": "runs/match_cache/cc/ccd56bb6021ed66fc10bf59711edded65ce2251457e8c7eeb89b6e69a3c43f48/replay.bc26",
+      "peak_live_units": 40,
+      "raw_bytes": 51993,
+      "rounds": 113,
+      "total_rounds": 113,
+      "trace_tokens": {
+        "level0": 49535,
+        "shrink_window": 39221,
+        "stride40": 49147,
+        "windows_only": 48734
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 5,
+        "PlaceTrap": 39,
+        "RatNap": 8,
+        "RatSqueak": 117,
+        "SpawnAction": 8,
+        "ThrowRat": 3,
+        "TriggerTrap": 5,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1395348,
+      "gunzipped_bytes": 541752,
+      "path": "runs/match_cache/cd/cd48863d9a4396f43124f0cc69047efad9fefe71440eba9f7314b49c371e691c/replay.bc26",
+      "peak_live_units": 11,
+      "raw_bytes": 88584,
+      "rounds": 963,
+      "total_rounds": 963,
+      "trace_tokens": {
+        "level0": 48168,
+        "shrink_window": 40517,
+        "stride40": 45546,
+        "windows_only": 43165
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 5,
+        "CatPounce": 0,
+        "DieAction": 105,
+        "PlaceTrap": 111,
+        "RatNap": 279,
+        "RatSqueak": 2682,
+        "SpawnAction": 121,
+        "ThrowRat": 106,
+        "TriggerTrap": 107,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1508130,
+      "gunzipped_bytes": 532428,
+      "path": "runs/match_cache/ce/ceb1aef50609dae87f2013b0596a182a17c7bbf9e8e7d2b81ed1e19d779fd0bb/replay.bc26",
+      "peak_live_units": 44,
+      "raw_bytes": 135714,
+      "rounds": 268,
+      "total_rounds": 268,
+      "trace_tokens": {
+        "level0": 85174,
+        "shrink_window": 70020,
+        "stride40": 83403,
+        "windows_only": 81208
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 1,
+        "PlaceTrap": 11,
+        "RatNap": 0,
+        "RatSqueak": 59,
+        "SpawnAction": 16,
+        "ThrowRat": 0,
+        "TriggerTrap": 3,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 123334,
+      "gunzipped_bytes": 48548,
+      "path": "runs/match_cache/d3/d3131d9540910f15d5dc0bc321978d57f39b66982e560c005d326d69e83105a7/replay.bc26",
+      "peak_live_units": 20,
+      "raw_bytes": 10701,
+      "rounds": 44,
+      "total_rounds": 44,
+      "trace_tokens": {
+        "level0": 11317,
+        "shrink_window": 8826,
+        "stride40": 11317,
+        "windows_only": 11317
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 65,
+        "PlaceTrap": 103,
+        "RatNap": 127,
+        "RatSqueak": 1164,
+        "SpawnAction": 82,
+        "ThrowRat": 42,
+        "TriggerTrap": 97,
+        "UpgradeToRatKing": 0,
+        "died_ids": 5
+      },
+      "full_decode_json_bytes": 503979,
+      "gunzipped_bytes": 176680,
+      "path": "runs/match_cache/d4/d408b182dfed62835390dbe4e081308fa99cd689febf58cca5475477e0dda2e6/replay.bc26",
+      "peak_live_units": 38,
+      "raw_bytes": 46487,
+      "rounds": 100,
+      "total_rounds": 100,
+      "trace_tokens": {
+        "level0": 46715,
+        "shrink_window": 36124,
+        "stride40": 46715,
+        "windows_only": 46289
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 7,
+        "PlaceTrap": 21,
+        "RatNap": 224,
+        "RatSqueak": 2522,
+        "SpawnAction": 38,
+        "ThrowRat": 5,
+        "TriggerTrap": 17,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 940052,
+      "gunzipped_bytes": 329868,
+      "path": "runs/match_cache/d5/d5170a333fc0e6ffe06817bf121cff81fc20ba2bdafdda013259b67bcbec6010/replay.bc26",
+      "peak_live_units": 50,
+      "raw_bytes": 67905,
+      "rounds": 129,
+      "total_rounds": 129,
+      "trace_tokens": {
+        "level0": 64994,
+        "shrink_window": 55096,
+        "stride40": 64251,
+        "windows_only": 64251
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 12,
+        "PlaceTrap": 54,
+        "RatNap": 13,
+        "RatSqueak": 214,
+        "SpawnAction": 30,
+        "ThrowRat": 5,
+        "TriggerTrap": 18,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 397426,
+      "gunzipped_bytes": 149124,
+      "path": "runs/match_cache/db/db62de6212c5b85100c7fd60926361ad504bdb5e463535d60052c8e54d680d7c/replay.bc26",
+      "peak_live_units": 28,
+      "raw_bytes": 35080,
+      "rounds": 102,
+      "total_rounds": 102,
+      "trace_tokens": {
+        "level0": 27747,
+        "shrink_window": 22979,
+        "stride40": 27412,
+        "windows_only": 27090
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 43,
+        "PlaceTrap": 92,
+        "RatNap": 38,
+        "RatSqueak": 738,
+        "SpawnAction": 73,
+        "ThrowRat": 10,
+        "TriggerTrap": 53,
+        "UpgradeToRatKing": 2,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1416927,
+      "gunzipped_bytes": 509236,
+      "path": "runs/match_cache/dc/dcb2c7a05847be3aceb64525166fb3a9d00289cb74cef4f0e534454ffc91446c/replay.bc26",
+      "peak_live_units": 38,
+      "raw_bytes": 116339,
+      "rounds": 315,
+      "total_rounds": 315,
+      "trace_tokens": {
+        "level0": 56574,
+        "shrink_window": 40011,
+        "stride40": 54421,
+        "windows_only": 52281
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 24,
+        "PlaceTrap": 56,
+        "RatNap": 52,
+        "RatSqueak": 705,
+        "SpawnAction": 59,
+        "ThrowRat": 24,
+        "TriggerTrap": 20,
+        "UpgradeToRatKing": 1,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1006507,
+      "gunzipped_bytes": 361728,
+      "path": "runs/match_cache/e4/e47ff7a332bf672c579a840a5a2b27b952b9bea562442957e603a57983fb527f/replay.bc26",
+      "peak_live_units": 43,
+      "raw_bytes": 85590,
+      "rounds": 215,
+      "total_rounds": 215,
+      "trace_tokens": {
+        "level0": 52243,
+        "shrink_window": 36063,
+        "stride40": 50890,
+        "windows_only": 49638
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 3,
+        "PlaceTrap": 9,
+        "RatNap": 4,
+        "RatSqueak": 502,
+        "SpawnAction": 22,
+        "ThrowRat": 2,
+        "TriggerTrap": 7,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 344784,
+      "gunzipped_bytes": 133484,
+      "path": "runs/match_cache/ed/edf59f1d5badab8346a163620f6018659307fcbeedd6061a8d56f97b6947dbae/replay.bc26",
+      "peak_live_units": 27,
+      "raw_bytes": 29867,
+      "rounds": 89,
+      "total_rounds": 89,
+      "trace_tokens": {
+        "level0": 28037,
+        "shrink_window": 22003,
+        "stride40": 27702,
+        "windows_only": 27702
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 0,
+        "PlaceTrap": 0,
+        "RatNap": 3484,
+        "RatSqueak": 35228,
+        "SpawnAction": 39,
+        "ThrowRat": 0,
+        "TriggerTrap": 0,
+        "UpgradeToRatKing": 0,
+        "died_ids": 40
+      },
+      "full_decode_json_bytes": 9778907,
+      "gunzipped_bytes": 3450332,
+      "path": "runs/match_cache/ef/eff8eda2414d17321ebc3a8b9668b7d2ada0eb86d19268677afbbc5380261ca3/replay.bc26",
+      "peak_live_units": 65,
+      "raw_bytes": 503705,
+      "rounds": 1200,
+      "total_rounds": 1200,
+      "trace_tokens": {
+        "level0": 624568,
+        "shrink_window": 597572,
+        "stride40": 611703,
+        "windows_only": 599251
+      },
+      "win_type": "RESIGNATION",
+      "winner": "B"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 10,
+        "PlaceTrap": 11,
+        "RatNap": 26,
+        "RatSqueak": 204,
+        "SpawnAction": 37,
+        "ThrowRat": 13,
+        "TriggerTrap": 4,
+        "UpgradeToRatKing": 0,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 418338,
+      "gunzipped_bytes": 155256,
+      "path": "runs/match_cache/f3/f3cc8f5b9a2166ba1f4be90e334f55effe241e307abf34bcecf3777d187b2d18/replay.bc26",
+      "peak_live_units": 31,
+      "raw_bytes": 36126,
+      "rounds": 107,
+      "total_rounds": 107,
+      "trace_tokens": {
+        "level0": 28770,
+        "shrink_window": 19094,
+        "stride40": 28770,
+        "windows_only": 28448
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 2,
+        "CatPounce": 0,
+        "DieAction": 63,
+        "PlaceTrap": 94,
+        "RatNap": 104,
+        "RatSqueak": 958,
+        "SpawnAction": 95,
+        "ThrowRat": 47,
+        "TriggerTrap": 85,
+        "UpgradeToRatKing": 1,
+        "died_ids": 0
+      },
+      "full_decode_json_bytes": 1669580,
+      "gunzipped_bytes": 588064,
+      "path": "runs/match_cache/fb/fb81338d463a94a16ef24ee2a71270d6e6027f4f04c815e5c12d362de0eba107/replay.bc26",
+      "peak_live_units": 43,
+      "raw_bytes": 138446,
+      "rounds": 308,
+      "total_rounds": 308,
+      "trace_tokens": {
+        "level0": 66150,
+        "shrink_window": 46971,
+        "stride40": 63980,
+        "windows_only": 61228
+      },
+      "win_type": "RATKING_DESTROYED",
+      "winner": "A"
+    },
+    {
+      "event_counts": {
+        "CatFeed": 0,
+        "CatPounce": 0,
+        "DieAction": 6,
+        "PlaceTrap": 39,
+        "RatNap": 2788,
+        "RatSqueak": 31133,
+        "SpawnAction": 52,
+        "ThrowRat": 4,
+        "TriggerTrap": 14,
+        "UpgradeToRatKing": 0,
+        "died_ids": 43
+      },
+      "full_decode_json_bytes": 9270408,
+      "gunzipped_bytes": 3060848,
+      "path": "runs/match_cache/fc/fc7f2b0e615a28786ee863c0e884abbefde52e41cc8102f3ad5a185522d3f3b3/replay.bc26",
+      "peak_live_units": 73,
+      "raw_bytes": 463291,
+      "rounds": 1200,
+      "total_rounds": 1200,
+      "trace_tokens": {
+        "level0": 560710,
+        "shrink_window": 532912,
+        "stride40": 548193,
+        "windows_only": 535871
+      },
+      "win_type": "RESIGNATION",
+      "winner": "A"
+    }
+  ],
+  "summary": {
+    "full_decode_json_bytes": {
+      "median": 502778.5,
+      "p90": 2036999.0
+    },
+    "gunzipped_bytes": {
+      "median": 187574.0,
+      "p90": 726440.0
+    },
+    "n_replays": 84,
+    "peak_live_units": {
+      "median": 31.0,
+      "p90": 51.0
+    },
+    "raw_bytes": {
+      "median": 43841.5,
+      "p90": 181658.0
+    },
+    "rounds": {
+      "median": 110.0,
+      "p90": 966.0
+    },
+    "trace_tokens": {
+      "level0": {
+        "median": 33540.0,
+        "p90": 103476.0
+      },
+      "shrink_window": {
+        "median": 25035.5,
+        "p90": 88060.0
+      },
+      "stride40": {
+        "median": 33128.5,
+        "p90": 101538.0
+      },
+      "windows_only": {
+        "median": 32806.0,
+        "p90": 99639.0
+      }
+    }
+  },
+  "trace_config": {
+    "event_window_rounds": 10,
+    "final_window_rounds": 50,
+    "max_games_per_call": 4,
+    "replay_token_budget": 250000,
+    "snapshot_stride_rounds": 20
+  }
+}
