@@ -1,0 +1,17 @@
+// External init script (never modifies the engine repo): print the resolved
+// 'headless' JavaExec classpath and the example-bots default class location.
+// Used with --dry-run; configuration-phase hooks still fire.
+gradle.projectsEvaluated {
+    def eb = gradle.rootProject.project(':example-bots')
+    println 'GEPA_DEFAULT_CLASSLOC_BEGIN'
+    println eb.sourceSets.main.output.classesDirs.asPath
+    println 'GEPA_DEFAULT_CLASSLOC_END'
+}
+gradle.taskGraph.whenReady { graph ->
+    def t = graph.allTasks.find { it.name == 'headless' }
+    if (t != null) {
+        println 'GEPA_CLASSPATH_BEGIN'
+        println t.classpath.asPath
+        println 'GEPA_CLASSPATH_END'
+    }
+}
