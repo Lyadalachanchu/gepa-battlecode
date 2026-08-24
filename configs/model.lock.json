@@ -7,8 +7,10 @@
   "context_window_tokens": 1050000,
   "max_output_tokens": 128000,
   "pricing_per_mtok": {"input": 0.20, "output": 1.20},
+  "resolved_model_id": "gpt-5.6-luna",
+  "resolved_at": "2026-08-24",
   "notes": [
-    "Frozen before the pilot; resolve and record the dated snapshot ID on first API call.",
+    "Verified live 2026-08-24: API resolves and returns 'gpt-5.6-luna' (no dated snapshot suffix exposed).",
     "All experimental arms always use this same model.",
     "Pilot gate: if initial compile rate < 60% or citation groundedness is poor, revisit (PLAN.md section 4)."
   ]
