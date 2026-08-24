@@ -27,6 +27,7 @@ Replays land under runs/equivalence/ and are reused on rerun unless --force.
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -132,6 +133,24 @@ def _describe_divergence(orig: list[TurnKey], mod: list[TurnKey]) -> str:
     )
 
 
+def _opponent_location(opponent: str) -> str | None:
+    """Classes dir for a non-builtin opponent, from configs/opponents.lock.json.
+
+    Builtin engine bots (present on the default class location) return None.
+    """
+    lock_path = REPO_ROOT / "configs" / "opponents.lock.json"
+    if opponent == "examplefuncsplayer" or not lock_path.exists():
+        return None
+    with open(lock_path, "r", encoding="utf-8") as fh:
+        lock = json.load(fh)
+    for entry in lock.get("opponents", []):
+        if entry.get("package") == opponent and entry.get("classes_dir"):
+            return str(REPO_ROOT / entry["classes_dir"]) if not Path(
+                entry["classes_dir"]
+            ).is_absolute() else entry["classes_dir"]
+    return None
+
+
 def _run_or_reuse(
     engine: EngineConfig,
     candidate_pkg: str,
@@ -145,6 +164,7 @@ def _run_or_reuse(
 ) -> Path:
     if replay_path.exists() and replay_path.stat().st_size > 0 and not force:
         return replay_path
+    opp_classes = _opponent_location(opponent)
     if side == "A":
         run_match(
             team_a=candidate_pkg,
@@ -153,6 +173,7 @@ def _run_or_reuse(
             replay_out=replay_path,
             engine=engine,
             class_location_a=str(candidate_classes),
+            class_location_b=opp_classes,
             timeout_s=timeout_s,
         )
     else:
@@ -162,6 +183,7 @@ def _run_or_reuse(
             map_name=map_name,
             replay_out=replay_path,
             engine=engine,
+            class_location_a=opp_classes,
             class_location_b=str(candidate_classes),
             timeout_s=timeout_s,
         )
