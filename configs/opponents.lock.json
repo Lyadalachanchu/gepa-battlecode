@@ -13,7 +13,7 @@
       "compiled": true,
       "javac_error": null,
       "smoke_ok": true,
-      "strength_tier": null
+      "strength_tier": "floor"
     },
     {
       "id": "lectureplayer",
@@ -28,7 +28,7 @@
       "compiled": true,
       "javac_error": null,
       "smoke_ok": true,
-      "strength_tier": null
+      "strength_tier": "floor"
     },
     {
       "id": "alext101_sprint1bot",
@@ -43,7 +43,7 @@
       "compiled": true,
       "javac_error": null,
       "smoke_ok": true,
-      "strength_tier": null
+      "strength_tier": "weak"
     },
     {
       "id": "alext101_sprint2bot",
@@ -58,7 +58,7 @@
       "compiled": true,
       "javac_error": null,
       "smoke_ok": true,
-      "strength_tier": null
+      "strength_tier": "weak"
     },
     {
       "id": "alext101_finalsbot",
@@ -73,7 +73,7 @@
       "compiled": true,
       "javac_error": null,
       "smoke_ok": true,
-      "strength_tier": null
+      "strength_tier": "mid"
     },
     {
       "id": "spsquared_delta",
@@ -88,7 +88,7 @@
       "compiled": true,
       "javac_error": null,
       "smoke_ok": true,
-      "strength_tier": null
+      "strength_tier": "weak"
     },
     {
       "id": "uravt_version41",
@@ -103,7 +103,7 @@
       "compiled": true,
       "javac_error": null,
       "smoke_ok": true,
-      "strength_tier": null
+      "strength_tier": "mid"
     },
     {
       "id": "adamtan_finals",
@@ -133,7 +133,7 @@
       "compiled": true,
       "javac_error": null,
       "smoke_ok": true,
-      "strength_tier": null
+      "strength_tier": "mid"
     },
     {
       "id": "r3vivify_result408",
@@ -148,7 +148,7 @@
       "compiled": true,
       "javac_error": null,
       "smoke_ok": true,
-      "strength_tier": null
+      "strength_tier": "floor"
     }
   ]
 }
