@@ -1,0 +1,22 @@
+{
+  "repo": "https://github.com/battlecode/battlecode26",
+  "commit": "103abf6b67a2cf544e6344dddef9318af9ae9193",
+  "local_path": "/home/user/battlecode/battlecode26",
+  "java_version": "21",
+  "schema_python_path": "schema/python",
+  "maps_dir": "maps",
+  "headless_task": "headless",
+  "required_gradle_props": ["teamA", "teamB", "maps", "validateMaps", "alternateOrder"],
+  "show_indicators": false,
+  "notes": [
+    "One map per JVM invocation: cat-AI static Random(1092) is seeded once per JVM.",
+    "Match seed is baked into each .map26 (GameMap.randomSeed); no CLI override exists.",
+    "Score by MatchFooter.winType; TIE and COIN_FLIP count 0.5 (COIN_FLIP winner byte is nondeterministic)."
+  ],
+  "seed_bot": {
+    "repo": "https://github.com/battlecode/battlecode26-lectureplayer",
+    "commit": "21c1bac78769b42b9f583b3e27ab8b083d501789",
+    "package": "lectureplayer",
+    "license": "AGPL-3.0"
+  }
+}

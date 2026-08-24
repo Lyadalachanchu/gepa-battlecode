@@ -1,0 +1,47 @@
+# Frozen experimental knobs. Change only before the pilot; never per-arm.
+
+arms: [score_greedy, replay_greedy, gepa_pareto, gepa_full]
+components: [economy, combat, defense, navigation, strategy]
+
+budgets:
+  pilot:
+    model_calls_per_run: 20
+    matches_per_run: 750
+    seeds: 2
+  main:
+    model_calls_per_run: 80          # compile-repair calls included
+    matches_per_run: 2500            # cache hits are free
+    seeds: 5
+
+trace:                               # tiered deterministic trace (PLAN.md section 6)
+  snapshot_stride_rounds: 20         # T3 full unit-state snapshots every N rounds
+  event_window_rounds: 10            # dense +/-W rounds around decisive T2 events
+  final_window_rounds: 50            # always-dense tail of the game
+  degrade_ladder: [stride40, windows_only, shrink_window]
+  replay_token_budget: 250000        # fixed budget for packed traces per call
+  max_games_per_call: 4
+
+scoring:                             # PLAN.md section 11
+  tie_outcome: 0.5                   # winType TIE or COIN_FLIP
+  margin_lambda: 0.1                 # score = outcome + lambda * margin, margin in [-1, 1]
+
+gate:                                # PLAN.md section 13
+  disjoint_minibatch_scenarios: 4
+  max_consecutive_neutral_accepts: 2
+  reject_new_exceptions: true
+
+pareto:
+  instances: 48                      # 6 dev opponents x 4 maps x 2 sides, per-GAME
+  dominance_pruning: true
+
+patch:
+  max_changed_lines: 250
+  mode: full_component_rewrite       # never unified diffs
+  repair_attempts: 1
+
+map_split: {feedback: 0.6, pareto: 0.2, test: 0.2}
+
+evaluation:
+  heldout_games_per_champion_target: [300, 500]
+  min_test_opponents: 4
+  target_test_opponents: 6

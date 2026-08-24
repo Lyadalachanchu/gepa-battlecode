@@ -1,0 +1,15 @@
+{
+  "model": "gpt-5.6-luna",
+  "api": "responses",
+  "reasoning_effort": "high",
+  "tools": [],
+  "structured_outputs": true,
+  "context_window_tokens": 1050000,
+  "max_output_tokens": 128000,
+  "pricing_per_mtok": {"input": 0.20, "output": 1.20},
+  "notes": [
+    "Frozen before the pilot; resolve and record the dated snapshot ID on first API call.",
+    "All experimental arms always use this same model.",
+    "Pilot gate: if initial compile rate < 60% or citation groundedness is poor, revisit (PLAN.md section 4)."
+  ]
+}
