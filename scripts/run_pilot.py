@@ -262,7 +262,9 @@ def _setup_logging(run_dir: Path) -> None:
     root.addHandler(sh)
 
 
-def _prepare_run_dir(arm: str, seed: int, resume: Optional[str]) -> Path:
+def _prepare_run_dir(
+    arm: str, seed: int, resume: Optional[str], run_root: Optional[str] = None
+) -> Path:
     if resume:
         run_dir = Path(resume)
         if not run_dir.is_dir():
@@ -274,7 +276,8 @@ def _prepare_run_dir(arm: str, seed: int, resume: Optional[str]) -> Path:
                 n += 1
             state.rename(bak)
         return run_dir
-    run_dir = PILOT_ROOT / f"{arm}-s{seed}"
+    root = Path(run_root) if run_root else PILOT_ROOT
+    run_dir = root / f"{arm}-s{seed}"
     if (run_dir / "state.jsonl").exists():
         raise FileExistsError(
             f"{run_dir} already holds a run (state.jsonl exists). Pass "
@@ -295,6 +298,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                         help="match budget (default: experiment.yaml pilot)")
     parser.add_argument("--resume", default=None,
                         help="existing runs/pilot/<run_id> dir to restart")
+    parser.add_argument("--run-root", default=None,
+                        help="root dir for run output (default runs/pilot; "
+                             "use runs/main for the main experiment)")
     parser.add_argument("--use-gradle", action="store_true",
                         help="force matches through ./gradlew instead of direct java")
     args = parser.parse_args(argv)
@@ -312,7 +318,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         reject_new_exceptions=bool(gate_cfg.get("reject_new_exceptions", True)),
     )
 
-    run_dir = _prepare_run_dir(args.arm, args.optimizer_seed, args.resume)
+    run_dir = _prepare_run_dir(args.arm, args.optimizer_seed, args.resume, args.run_root)
     _setup_logging(run_dir)
     if args.resume:
         log.warning(

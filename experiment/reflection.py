@@ -25,6 +25,7 @@ loop's ``compile_check`` so violations flow into the one repair attempt as
 from __future__ import annotations
 
 import json
+import logging
 import os
 from pathlib import Path
 from typing import Any, Callable, Mapping, Optional, Sequence, Union
@@ -287,6 +288,7 @@ class ReflectionAdapter:
 
         call = self.client.reflect_and_patch(system, user)
         self._last_call = call
+        self._log_reflection(payload, comp, call)
         if call.parsed is None:
             return {"action": "no_change", "error": call.error or "model call failed"}
         parsed = call.parsed
@@ -305,6 +307,35 @@ class ReflectionAdapter:
             "component_source": str(mutation["component_source"]),
             "hypothesis": mutation.get("hypothesis"),
         }
+
+    def _log_reflection(self, payload: Mapping[str, Any], comp: str, call) -> None:
+        """Persist the model's parsed reflection for groundedness analysis.
+
+        PLAN.md section 16 needs each call's claimed evidence (cited replay
+        rounds) next to what was actually sent; component_source is omitted —
+        accepted sources live in the candidate store.
+        """
+        entry: dict[str, Any] = {
+            "iteration": payload.get("iteration"),
+            "component": comp,
+            "arm": self.arm.name,
+            "used_trajectories": bool(self.arm.use_trajectories),
+            "error": call.error,
+        }
+        if call.parsed is not None:
+            entry["action"] = call.parsed.get("action")
+            entry["reflection"] = call.parsed.get("reflection")
+            mutation = call.parsed.get("mutation") or {}
+            entry["mutation_meta"] = {
+                k: mutation.get(k)
+                for k in ("target_component", "hypothesis",
+                          "expected_improvement", "regression_risks")
+            }
+        try:
+            with open(self.run_dir / "reflections.jsonl", "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(entry, sort_keys=True) + "\n")
+        except OSError:
+            logging.getLogger(__name__).exception("failed to write reflections.jsonl")
 
     def _repair(self, payload: Mapping[str, Any]) -> dict[str, Any]:
         prior = self._last_call

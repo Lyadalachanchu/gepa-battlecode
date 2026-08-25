@@ -11,7 +11,8 @@ budgets:
   main:
     model_calls_per_run: 80          # compile-repair calls included
     matches_per_run: 2500            # cache hits are free
-    seeds: 5
+    seeds: 8                         # 3 arms x 8 seeds (gepa_full deferred)
+    arms: [score_greedy, replay_greedy, gepa_pareto]
 
 trace:                               # tiered deterministic trace (PLAN.md section 6)
   snapshot_stride_rounds: 20         # T3 full unit-state snapshots every N rounds
