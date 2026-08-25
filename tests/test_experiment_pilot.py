@@ -188,8 +188,8 @@ def test_prepare_run_dir_refuses_accidental_overwrite(tmp_path, monkeypatch):
     (run_dir / "state.jsonl").write_text("{}\n")
     with pytest.raises(FileExistsError, match="--resume"):
         _prepare_run_dir("score_greedy", 0, resume=None)
-    # Resume archives the old state file.
+    # Resume keeps state.jsonl in place: it is the reconstruction source
+    # (reconstruct_resume_state replays it and the run appends to it).
     resumed = _prepare_run_dir("score_greedy", 0, resume=str(run_dir))
     assert resumed == run_dir
-    assert not (run_dir / "state.jsonl").exists()
-    assert (run_dir / "state.jsonl.bak1").exists()
+    assert (run_dir / "state.jsonl").exists()

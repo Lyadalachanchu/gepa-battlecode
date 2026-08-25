@@ -161,6 +161,44 @@ class OptimizerLoop:
         with open(self.state_path, "a", encoding="utf-8") as fh:
             fh.write(json.dumps(record, sort_keys=True) + "\n")
 
+    def _log_progress(self, next_iteration: int) -> None:
+        """Small atomic checkpoint so a killed run can resume exactly.
+
+        Everything else (pool scores, candidates, gate history) reconstructs
+        from state.jsonl + the match cache + the candidate store; the budget
+        counters and iteration cursor are the only state not derivable there.
+        """
+        tmp = self.run_dir / "progress.json.tmp"
+        tmp.write_text(
+            json.dumps(
+                {
+                    "next_iteration": next_iteration,
+                    "model_calls_used": self.model_calls_used,
+                    "matches_run": self.matches_run,
+                    "cache_hits": self.cache_hits,
+                },
+                sort_keys=True,
+            ),
+            encoding="utf-8",
+        )
+        tmp.replace(self.run_dir / "progress.json")
+
+    def restore(
+        self,
+        *,
+        model_calls_used: int,
+        matches_run: int,
+        cache_hits: int,
+        scores: Mapping[str, Sequence[float]],
+        neutral_counts: Mapping[str, int],
+    ) -> None:
+        """Adopt reconstructed state before run(start_iteration=...)."""
+        self.model_calls_used = int(model_calls_used)
+        self.matches_run = int(matches_run)
+        self.cache_hits = int(cache_hits)
+        self.scores = {k: tuple(float(x) for x in v) for k, v in scores.items()}
+        self.neutral_counts = dict(neutral_counts)
+
     # -- evaluation -------------------------------------------------------
     def _evaluate_on_instances(self, candidate: Candidate) -> tuple[float, ...]:
         if candidate.candidate_id in self.scores:
@@ -347,19 +385,22 @@ class OptimizerLoop:
         return {"attempted": True, "merged": merged.candidate_id}
 
     # -- entry point ------------------------------------------------------
-    def run(self) -> dict:
+    def run(self, start_iteration: int = 0) -> dict:
         """Run up to cfg.iterations, hard-stopping at the first budget limit.
 
+        start_iteration > 0 continues a reconstructed run (see restore());
+        the seed re-evaluation is a no-op when its scores were restored.
         Returns a summary dict; per-iteration records land in state.jsonl.
         """
         stopped: Optional[str] = None
         completed = 0
         try:
             self._evaluate_on_instances(self.store.get(self.seed_id))
-            for i in range(self.cfg.iterations):
+            for i in range(start_iteration, self.cfg.iterations):
                 rec = self._iterate(i)
                 self._log(rec)
                 completed += 1
+                self._log_progress(next_iteration=i + 1)
         except BudgetExhausted as exc:
             stopped = exc.which
             self._log({"event": "budget_exhausted", "which": exc.which})

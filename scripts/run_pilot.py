@@ -262,6 +262,83 @@ def _setup_logging(run_dir: Path) -> None:
     root.addHandler(sh)
 
 
+# Fallback match-budget estimate for resumed runs that predate progress.json
+# (pilot measured ~28 non-cached matches per model call including Pareto evals).
+MATCHES_PER_CALL_ESTIMATE = 28
+
+
+def reconstruct_resume_state(run_dir: Path, loop: OptimizerLoop) -> int:
+    """Rebuild loop state from state.jsonl + candidate store + match cache.
+
+    Returns the iteration to continue from.  Pool vectors replay through
+    run_scenario, which hits the exact match cache (a missing game re-runs,
+    uncharged).  Budgets come from progress.json when present, else from the
+    model-call log plus a conservative match estimate.
+    """
+    state_path = run_dir / "state.jsonl"
+    next_iter = 0
+    accepted: list[tuple[str, str, bool]] = []
+    if state_path.exists():
+        with open(state_path, encoding="utf-8") as fh:
+            for line in fh:
+                r = json.loads(line)
+                if r.get("event") == "summary":
+                    raise FileExistsError(
+                        f"{run_dir} already completed; refusing to resume"
+                    )
+                if r.get("event") == "iteration":
+                    next_iter = max(next_iter, int(r["iteration"]) + 1)
+                    g = r.get("gate") or {}
+                    if g.get("accepted"):
+                        accepted.append(
+                            (r["parent"], r["child"], bool(g.get("neutral")))
+                        )
+
+    calls_used = 0
+    call_log = run_dir / "model_calls.jsonl"
+    if call_log.exists():
+        with open(call_log, encoding="utf-8") as fh:
+            calls_used = sum(1 for _ in fh)
+    progress = {}
+    progress_path = run_dir / "progress.json"
+    if progress_path.exists():
+        progress = json.loads(progress_path.read_text(encoding="utf-8"))
+        calls_used = max(calls_used, int(progress.get("model_calls_used", 0)))
+        next_iter = max(next_iter, int(progress.get("next_iteration", 0)))
+    matches_run = int(
+        progress.get("matches_run", MATCHES_PER_CALL_ESTIMATE * calls_used)
+    )
+    cache_hits = int(progress.get("cache_hits", 0))
+
+    neutral_counts: dict[str, int] = {}
+    for parent, child, neutral in accepted:
+        neutral_counts[child] = neutral_counts.get(parent, 0) + 1 if neutral else 0
+
+    scores: dict[str, tuple[float, ...]] = {}
+    for cid in [loop.seed_id] + [child for _, child, _ in accepted]:
+        cand = loop.store.get(cid, None)
+        if cand is None:
+            log.warning("resume: candidate %s missing from store; dropped", cid)
+            continue
+        scores[cid] = tuple(
+            float(loop.run_scenario(cand, s)["score"])
+            for s in loop.pareto_scenarios
+        )
+
+    loop.restore(
+        model_calls_used=calls_used,
+        matches_run=matches_run,
+        cache_hits=cache_hits,
+        scores=scores,
+        neutral_counts=neutral_counts,
+    )
+    log.info(
+        "resume: continuing at iteration %d (pool=%d, calls_used=%d, "
+        "matches_run~=%d)", next_iter, len(scores), calls_used, matches_run,
+    )
+    return next_iter
+
+
 def _prepare_run_dir(
     arm: str, seed: int, resume: Optional[str], run_root: Optional[str] = None
 ) -> Path:
@@ -269,12 +346,6 @@ def _prepare_run_dir(
         run_dir = Path(resume)
         if not run_dir.is_dir():
             raise FileNotFoundError(f"--resume dir does not exist: {run_dir}")
-        state = run_dir / "state.jsonl"
-        if state.exists():
-            n = 1
-            while (bak := run_dir / f"state.jsonl.bak{n}").exists():
-                n += 1
-            state.rename(bak)
         return run_dir
     root = Path(run_root) if run_root else PILOT_ROOT
     run_dir = root / f"{arm}-s{seed}"
@@ -322,9 +393,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     _setup_logging(run_dir)
     if args.resume:
         log.warning(
-            "RESUME: restarting %s from iteration 0. Cached matches replay "
-            "free; MODEL CALLS ARE RE-SPENT from a fresh budget of %d.",
-            run_dir, calls,
+            "RESUME: reconstructing %s from state.jsonl + match cache and "
+            "continuing; already-spent budget is preserved.", run_dir,
         )
     log.info(
         "pilot run: arm=%s seed=%d calls=%d matches=%d run_dir=%s use_gradle=%s",
@@ -347,8 +417,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             wiring=wiring,
             gate=gate,
         )
+        start_iteration = 0
+        if args.resume:
+            start_iteration = reconstruct_resume_state(run_dir, loop)
         start = time.monotonic()
-        summary = loop.run()
+        summary = loop.run(start_iteration=start_iteration)
         summary["wall_seconds"] = round(time.monotonic() - start, 1)
         (run_dir / "summary.json").write_text(
             json.dumps(summary, indent=2, sort_keys=True), encoding="utf-8"
