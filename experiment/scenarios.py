@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from pathlib import Path
 from typing import Any, Mapping, Optional, Union
 
@@ -217,7 +218,10 @@ class ScenarioExecutor:
             )
             return record
 
-        replay_out = self.replay_dir / f"{key.digest()[:16]}.bc26"
+        # Per-process temp name: concurrent runs (paired CRN schedules) play the
+        # same match key at the same time, and a shared deterministic filename
+        # races (one process consumes the replay another just wrote).
+        replay_out = self.replay_dir / f"{key.digest()[:16]}_{os.getpid()}.bc26"
         if side == "A":
             result = self.runner.run_match(
                 team_a=compiled.package,
