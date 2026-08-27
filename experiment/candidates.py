@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import re
 import shutil
+import threading
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Mapping, Optional, Union
@@ -178,6 +179,10 @@ class CandidateCompiler:
         self.package = package
         self._compiled: dict[str, CompiledCandidate] = {}
         self._failed: dict[str, str] = {}  # cid -> javac output
+        # Concurrent compiles of the SAME candidate share a staging dir and
+        # clobber each other (seen with the held-out evaluator's thread pool);
+        # serialize compilation — matches themselves still run in parallel.
+        self._lock = threading.Lock()
 
     def _work_dir(self, cid: str) -> Path:
         return self.root / cid[:16]
@@ -186,6 +191,12 @@ class CandidateCompiler:
         self, components: Mapping[str, str]
     ) -> tuple[bool, str, Optional[CompiledCandidate]]:
         """Compile a components dict; returns (ok, javac_output, compiled)."""
+        with self._lock:
+            return self._compile_components_locked(components)
+
+    def _compile_components_locked(
+        self, components: Mapping[str, str]
+    ) -> tuple[bool, str, Optional[CompiledCandidate]]:
         cid = candidate_id_for(components)
         if cid in self._compiled:
             return True, "", self._compiled[cid]
