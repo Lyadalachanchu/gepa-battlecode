@@ -1,0 +1,152 @@
+{
+ "__seed__": {
+  "joint": 0.2619047619047619,
+  "map_generalization": 0.17261904761904762,
+  "opponent_generalization": 0.3333333333333333,
+  "train_macro_average": null
+ },
+ "gepa_pareto-s0": {
+  "joint": 0.2857142857142857,
+  "map_generalization": 0.27976190476190477,
+  "opponent_generalization": 0.25,
+  "train_macro_average": 0.24301130908683255
+ },
+ "gepa_pareto-s1": {
+  "joint": 0.25,
+  "map_generalization": 0.19047619047619047,
+  "opponent_generalization": 0.3333333333333333,
+  "train_macro_average": 0.2100782588928032
+ },
+ "gepa_pareto-s2": {
+  "joint": 0.30952380952380953,
+  "map_generalization": 0.21428571428571427,
+  "opponent_generalization": 0.3333333333333333,
+  "train_macro_average": 0.18445654494533661
+ },
+ "gepa_pareto-s3": {
+  "joint": 0.2261904761904762,
+  "map_generalization": 0.17857142857142858,
+  "opponent_generalization": 0.25,
+  "train_macro_average": 0.22599041262403433
+ },
+ "gepa_pareto-s4": {
+  "joint": 0.30952380952380953,
+  "map_generalization": 0.16964285714285715,
+  "opponent_generalization": 0.3333333333333333,
+  "train_macro_average": 0.2269965128375768
+ },
+ "gepa_pareto-s5": {
+  "joint": 0.2619047619047619,
+  "map_generalization": 0.15476190476190477,
+  "opponent_generalization": 0.2916666666666667,
+  "train_macro_average": 0.19124656724633407
+ },
+ "gepa_pareto-s6": {
+  "joint": 0.2857142857142857,
+  "map_generalization": 0.19642857142857142,
+  "opponent_generalization": 0.3333333333333333,
+  "train_macro_average": 0.20941776876592522
+ },
+ "gepa_pareto-s7": {
+  "joint": 0.25,
+  "map_generalization": 0.13690476190476192,
+  "opponent_generalization": 0.2916666666666667,
+  "train_macro_average": 0.1659138442710263
+ },
+ "replay_greedy-s0": {
+  "joint": 0.2619047619047619,
+  "map_generalization": 0.2976190476190476,
+  "opponent_generalization": 0.2916666666666667,
+  "train_macro_average": 0.2867087312429328
+ },
+ "replay_greedy-s1": {
+  "joint": 0.2857142857142857,
+  "map_generalization": 0.27380952380952384,
+  "opponent_generalization": 0.3333333333333333,
+  "train_macro_average": 0.39827382869671973
+ },
+ "replay_greedy-s2": {
+  "joint": 0.2857142857142857,
+  "map_generalization": 0.17261904761904762,
+  "opponent_generalization": 0.375,
+  "train_macro_average": 0.20456615903679087
+ },
+ "replay_greedy-s3": {
+  "joint": 0.25,
+  "map_generalization": 0.13690476190476192,
+  "opponent_generalization": 0.2916666666666667,
+  "train_macro_average": 0.189937988428639
+ },
+ "replay_greedy-s4": {
+  "joint": 0.30952380952380953,
+  "map_generalization": 0.24404761904761904,
+  "opponent_generalization": 0.375,
+  "train_macro_average": 0.32200155573367595
+ },
+ "replay_greedy-s5": {
+  "joint": 0.3333333333333333,
+  "map_generalization": 0.19940476190476192,
+  "opponent_generalization": 0.2916666666666667,
+  "train_macro_average": 0.208819466229072
+ },
+ "replay_greedy-s6": {
+  "joint": 0.2619047619047619,
+  "map_generalization": 0.18452380952380953,
+  "opponent_generalization": 0.3333333333333333,
+  "train_macro_average": 0.18235186310102028
+ },
+ "replay_greedy-s7": {
+  "joint": 0.25,
+  "map_generalization": 0.15476190476190477,
+  "opponent_generalization": 0.2916666666666667,
+  "train_macro_average": 0.18784966061578115
+ },
+ "score_greedy-s0": {
+  "joint": 0.23809523809523808,
+  "map_generalization": 0.17857142857142858,
+  "opponent_generalization": 0.3333333333333333,
+  "train_macro_average": 0.16213304178501328
+ },
+ "score_greedy-s1": {
+  "joint": 0.2857142857142857,
+  "map_generalization": 0.15476190476190477,
+  "opponent_generalization": 0.2916666666666667,
+  "train_macro_average": 0.16212776428350797
+ },
+ "score_greedy-s2": {
+  "joint": 0.27380952380952384,
+  "map_generalization": 0.14285714285714285,
+  "opponent_generalization": 0.25,
+  "train_macro_average": 0.20690827133292886
+ },
+ "score_greedy-s3": {
+  "joint": 0.2261904761904762,
+  "map_generalization": 0.15476190476190477,
+  "opponent_generalization": 0.2916666666666667,
+  "train_macro_average": 0.16419814621495524
+ },
+ "score_greedy-s4": {
+  "joint": 0.20238095238095238,
+  "map_generalization": 0.16071428571428573,
+  "opponent_generalization": 0.3333333333333333,
+  "train_macro_average": 0.16420391688490768
+ },
+ "score_greedy-s5": {
+  "joint": 0.2857142857142857,
+  "map_generalization": 0.19642857142857142,
+  "opponent_generalization": 0.25,
+  "train_macro_average": 0.1848004163583106
+ },
+ "score_greedy-s6": {
+  "joint": 0.23809523809523808,
+  "map_generalization": 0.15476190476190477,
+  "opponent_generalization": 0.3333333333333333,
+  "train_macro_average": 0.14091739634143852
+ },
+ "score_greedy-s7": {
+  "joint": 0.2261904761904762,
+  "map_generalization": 0.16071428571428573,
+  "opponent_generalization": 0.375,
+  "train_macro_average": 0.18390995211503766
+ }
+}
